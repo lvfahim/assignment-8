@@ -2,6 +2,9 @@ import React from 'react';
 import { createBrowserRouter } from "react-router";
 import Root from '../Root/Root';
 import Error from '../Error/Error';
+import Home from '../Page/Home';
+import Apps from '../Page/Apps';
+import Installation from '../Page/Installation';
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -11,7 +14,15 @@ export const router = createBrowserRouter([
         {
             index:true,
             path:'/',
-            Component:Root,
+            Component:Home,
+        },
+        {
+            path:'/apps',
+            Component:Apps
+        },
+        {
+            path:'/installation',
+            Component:Installation
         }
     ]
   },
