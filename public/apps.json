@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co.com/pv6yXxrX/images-1.jpg",
+    "title": "ChatMate",
+    "companyName": "NovaTech",
+    "id": 1,
+    "description": "An AI-powered chat assistant that helps you write, plan, and organize ideas effortlessly.",
+    "size": 45,
+    "reviews": 12000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 8650 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Nnp0f6kV/images.png",
+    "title": "TaskFlow",
+    "companyName": "Prodigy Labs",
+    "id": 2,
+    "description": "Manage your daily tasks, goals, and reminders with beautiful UI and smart notifications.",
+    "size": 32,
+    "reviews": 8400,
+    "ratingAvg": 4.4,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 6430 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VYBzgdh6/images-1.png",
+    "title": "FitPulse",
+    "companyName": "Healthio",
+    "id": 3,
+    "description": "Track workouts, calories, and progress with AI recommendations and real-time stats.",
+    "size": 56,
+    "reviews": 17600,
+    "ratingAvg": 4.7,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 11400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PZRqNX1B/images-2.png",
+    "title": "EduPlus",
+    "companyName": "BrightMind",
+    "id": 4,
+    "description": "Interactive learning app with AI tutors, quizzes, and video lessons for all ages.",
+    "size": 61,
+    "reviews": 20400,
+    "ratingAvg": 4.8,
+    "downloads": 8300000,
+    "ratings": [
+      { "name": "1 star", "count": 270 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 15230 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yFjW5dpZ/images-2.jpg",
+    "title": "PhotoTune",
+    "companyName": "PixelArt Studio",
+    "id": 5,
+    "description": "Enhance and edit your photos instantly with AI filters, effects, and background remover.",
+    "size": 48,
+    "reviews": 9800,
+    "ratingAvg": 4.3,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5JHWYpn/unnamed.webp",
+    "title": "SoundWave",
+    "companyName": "Tuneify",
+    "id": 6,
+    "description": "Stream high-quality music, create playlists, and discover trending artists worldwide.",
+    "size": 79,
+    "reviews": 45200,
+    "ratingAvg": 4.9,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 34100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/F4zHt11y/images-3.jpg",
+    "title": "TravelEase",
+    "companyName": "GlobeGo",
+    "id": 7,
+    "description": "Plan your trips, find hotels, and book flights with an easy-to-use global travel assistant.",
+    "size": 64,
+    "reviews": 15200,
+    "ratingAvg": 4.5,
+    "downloads": 6400000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 8500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cS1W5zmc/images-4.jpg",
+    "title": "ShopSmart",
+    "companyName": "RetailEdge",
+    "id": 8,
+    "description": "Compare prices, track discounts, and shop smarter across multiple online stores.",
+    "size": 53,
+    "reviews": 18700,
+    "ratingAvg": 4.2,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4900 },
+      { "name": "5 star", "count": 7900 }
+    ]
+  }
+]

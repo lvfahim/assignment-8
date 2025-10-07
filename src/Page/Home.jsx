@@ -1,9 +1,14 @@
 import React from 'react';
+import Barnar from '../Component/Limited/Barnar';
+import { useLoaderData } from 'react-router';
+import SomeApp from './SomeApp';
 
 const Home = () => {
+    const data=useLoaderData()
     return (
         <div>
-            <h1>I am here</h1>
+            <Barnar></Barnar>
+            <SomeApp data={data}></SomeApp>
         </div>
     );
 };

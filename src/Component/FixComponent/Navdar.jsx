@@ -25,7 +25,7 @@ const Navdar = () => {
                 </div>
                 <div className='flex items-center gap-1 md:mx-[80px]'>
                     <img className='w-[40px] h-[40px]' src={NavImg} alt="" />
-                    <Link><h1 className="text-xl text-[#632ee3]">HERO.IO</h1></Link>
+                    <Link to='/'><h1 className="text-xl text-[#632ee3]">HERO.IO</h1></Link>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">

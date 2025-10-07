@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://static.thenounproject.com/png/json-icon-4145744-512.png",
+    "title": "ChatMate",
+    "companyName": "NovaTech",
+    "id": 1,
+    "description": "An AI-powered chat assistant that helps you write, plan, and organize ideas effortlessly.",
+    "size": 45,
+    "reviews": 12000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 8650 }
+    ]
+  },
+  {
+    "image": "https://static.thenounproject.com/png/json-icon-3070675-512.png",
+    "title": "TaskFlow",
+    "companyName": "Prodigy Labs",
+    "id": 2,
+    "description": "Manage your daily tasks, goals, and reminders with beautiful UI and smart notifications.",
+    "size": 32,
+    "reviews": 8400,
+    "ratingAvg": 4.4,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 6430 }
+    ]
+  },
+  {
+    "image": "https://static.thenounproject.com/png/json-icon-627189-512.png",
+    "title": "FitPulse",
+    "companyName": "Healthio",
+    "id": 3,
+    "description": "Track workouts, calories, and progress with AI recommendations and real-time stats.",
+    "size": 56,
+    "reviews": 17600,
+    "ratingAvg": 4.7,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 11400 }
+    ]
+  },
+  {
+    "image": "https://static.thenounproject.com/png/json-icon-1620640-512.png",
+    "title": "EduPlus",
+    "companyName": "BrightMind",
+    "id": 4,
+    "description": "Interactive learning app with AI tutors, quizzes, and video lessons for all ages.",
+    "size": 61,
+    "reviews": 20400,
+    "ratingAvg": 4.8,
+    "downloads": 8300000,
+    "ratings": [
+      { "name": "1 star", "count": 270 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 15230 }
+    ]
+  },
+  {
+    "image": "https://static.thenounproject.com/png/json-icon-4219394-512.png",
+    "title": "PhotoTune",
+    "companyName": "PixelArt Studio",
+    "id": 5,
+    "description": "Enhance and edit your photos instantly with AI filters, effects, and background remover.",
+    "size": 48,
+    "reviews": 9800,
+    "ratingAvg": 4.3,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "image": "https://static.thenounproject.com/png/json-icon-6800392-512.png",
+    "title": "SoundWave",
+    "companyName": "Tuneify",
+    "id": 6,
+    "description": "Stream high-quality music, create playlists, and discover trending artists worldwide.",
+    "size": 79,
+    "reviews": 45200,
+    "ratingAvg": 4.9,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 34100 }
+    ]
+  },
+  {
+    "image": "https://static.thenounproject.com/png/json-icon-3828387-512.png",
+    "title": "TravelEase",
+    "companyName": "GlobeGo",
+    "id": 7,
+    "description": "Plan your trips, find hotels, and book flights with an easy-to-use global travel assistant.",
+    "size": 64,
+    "reviews": 15200,
+    "ratingAvg": 4.5,
+    "downloads": 6400000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 8500 }
+    ]
+  },
+  {
+    "image": "https://static.thenounproject.com/png/json-icon-7534627-512.png",
+    "title": "ShopSmart",
+    "companyName": "RetailEdge",
+    "id": 8,
+    "description": "Compare prices, track discounts, and shop smarter across multiple online stores.",
+    "size": 53,
+    "reviews": 18700,
+    "ratingAvg": 4.2,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4900 },
+      { "name": "5 star", "count": 7900 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/fitness.png",
+    "title": "FitTrack",
+    "companyName": "HealthTech",
+    "id": 9,
+    "description": "Monitor your workouts, nutrition, and progress with personalized insights.",
+    "size": 50,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 5250 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/recipe-book.png",
+    "title": "CookMaster",
+    "companyName": "Foodie Labs",
+    "id": 10,
+    "description": "Discover and save thousands of recipes with step-by-step instructions.",
+    "size": 45,
+    "reviews": 12000,
+    "ratingAvg": 4.7,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 5700 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/music.png",
+    "title": "TuneIn",
+    "companyName": "SoundWave",
+    "id": 11,
+    "description": "Stream your favorite music and podcasts anytime, anywhere.",
+    "size": 60,
+    "reviews": 15000,
+    "ratingAvg": 4.8,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 9400 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/calendar.png",
+    "title": "TimePlanner",
+    "companyName": "Productivity Co.",
+    "id": 12,
+    "description": "Organize your schedule, set reminders, and stay on top of your tasks.",
+    "size": 40,
+    "reviews": 11000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 5550 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/contacts.png",
+    "title": "ConnectMe",
+    "companyName": "SocialTech",
+    "id": 13,
+    "description": "Stay connected with friends and family through messaging and calls.",
+    "size": 50,
+    "reviews": 13000,
+    "ratingAvg": 4.7,
+    "downloads": 6500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 7500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/weather.png",
+    "title": "WeatherNow",
+    "companyName": "SkyTech",
+    "id": 14,
+    "description": "Get real-time weather updates and forecasts for your location.",
+    "size": 55,
+    "reviews": 14000,
+    "ratingAvg": 4.9,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/notes.png",
+    "title": "QuickNotes",
+    "companyName": "NoteWorks",
+    "id": 15,
+    "description": "Capture your ideas and to-do lists with ease and accessibility.",
+    "size": 35,
+    "reviews": 9000,
+    "ratingAvg": 4.4,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/game-controller.png",
+    "title": "PlayZone",
+    "companyName": "GameHub",
+    "id": 16,
+    "description": "Access a variety of games and challenges to keep you entertained.",
+    "size": 65,
+    "reviews": 16000,
+    "ratingAvg": 4.6,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 8800 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/photo.png",
+    "title": "SnapShot",
+    "companyName": "PhotoWorks",
+    "id": 17,
+    "description": "Edit and share your photos with powerful tools and filters.",
+    "size": 60,
+    "reviews": 17000,
+    "ratingAvg": 4.8,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 11600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/video-call.png",
+    "title": "VideoChat",
+    "companyName": "ConnectTech",
+    "id": 18,
+    "description": "Engage in high-quality video calls with friends and colleagues.",
+    "size": 45,
+    "reviews": 11000,
+    "ratingAvg": 4.5,
+    "downloads": 5500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 5550 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/lock.png",
+    "title": "SecureMe",
+    "companyName": "SafeTech",
+    "id": 19,
+    "description": "Protect your data and privacy with advanced security features.",
+    "size": 50,
+    "reviews": 9500,
+    "ratingAvg": 4.3,
+    "downloads": 4700000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios/512/cloud.png",
+    "title": "CloudDrive",
+    "companyName": "CloudTech",
+    "id": 20,
+    "description": "Store and access your files securely from anywhere.",
+    "size": 55,
+    "reviews": 14000,
+    "ratingAvg": 4.7,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 8500 }
+    ]
+  }
+]

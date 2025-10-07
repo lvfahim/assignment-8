@@ -1,0 +1,19 @@
+import React from 'react';
+import SomeApp2 from './SomeApp2';
+
+const SomeApp = ({data}) => {
+    // console.log(data.length)
+    return (
+        <div>
+            <h1 className='font-bold text-center text-4xl mt-[20px]'>Trending Apps</h1>
+            <p className='text-center mt-2.5'>Explore All Trending Apps on the Market developed by us</p>
+            <div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-[30px] place-items-center'>
+                {
+                    data.map(app => <SomeApp2 key={app.id} app={app}></SomeApp2>)
+                }
+            </div>
+        </div>
+    );
+};
+
+export default SomeApp;
