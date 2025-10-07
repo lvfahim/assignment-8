@@ -1,5 +1,7 @@
 import React from 'react';
 import FooTImg from '../../assets/logo.png'
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
     return (
         <footer className="footer footer-horizontal footer-center text-white bg-[#001931] mt-[50px] rounded p-10">
@@ -47,7 +49,7 @@ const Footer = () => {
                 </div>
                 <div className='flex items-center gap-1 md:mx-[80px] mt-[18px]'>
                     <img className='w-[40px] h-[40px]' src={ FooTImg} alt="" />
-                    <h1 className="text-xl text-white">HERO.IO</h1>
+                    <Link to='/'><h1 className="text-xl text-white">HERO.IO</h1></Link>
                 </div>
             </nav>
             <aside>

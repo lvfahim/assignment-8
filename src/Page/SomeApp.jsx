@@ -1,5 +1,6 @@
 import React from 'react';
 import SomeApp2 from './SomeApp2';
+import { Link } from 'react-router-dom';
 
 const SomeApp = ({data}) => {
     // console.log(data.length)
@@ -11,6 +12,9 @@ const SomeApp = ({data}) => {
                 {
                     data.map(app => <SomeApp2 key={app.id} app={app}></SomeApp2>)
                 }
+            </div>
+            <div className='mt-[30px] flex justify-center'>
+                <Link to='/apps'><button className="btn bg-gradient-to-l to-[#632ee3] from-[#9f62f2] text-white font-semibold">Show All</button></Link>
             </div>
         </div>
     );
