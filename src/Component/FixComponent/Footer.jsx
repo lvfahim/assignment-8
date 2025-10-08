@@ -1,6 +1,6 @@
 import React from 'react';
 import FooTImg from '../../assets/logo.png'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 const Footer = () => {
     return (

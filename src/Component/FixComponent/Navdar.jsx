@@ -7,7 +7,7 @@ import { FaHome } from "react-icons/fa";
 import { MdApps } from "react-icons/md";
 import { PiComputerTowerFill } from "react-icons/pi";
         const LinkList =<>
-        <NavLink to='/'><div className='flex items-center'><FaHome /><li className='font-semibold mx-4'>Home</li></div></NavLink>
+        <NavLink to='/'><div className='flex items-center'><FaHome  /><li className='font-semibold mx-4'>Home</li></div></NavLink>
         <NavLink to='/apps'><div className='flex items-center'><MdApps /><li className='font-semibold mx-4'>Apps</li></div></NavLink>
         <NavLink to='/installation'><div className='flex items-center'><PiComputerTowerFill /><li className='font-semibold mx-4'>Installation</li></div></NavLink>
         </>
