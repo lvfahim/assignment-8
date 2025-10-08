@@ -5,6 +5,7 @@ import Error from '../Error/Error';
 import Home from '../Page/Home';
 import Apps from '../Page/Apps';
 import Installation from '../Page/Installation';
+import AppDetails from '../Page/AppDetails';
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -19,11 +20,17 @@ export const router = createBrowserRouter([
         },
         {
             path:'/apps',
+            loader:()=>fetch('/extaApps.json'),
             Component:Apps
         },
         {
             path:'/installation',
             Component:Installation
+        },
+        {
+          path:'/apps/:Id',
+          loader:()=>fetch('/extaApps.json'),
+          Component:AppDetails
         }
     ]
   },

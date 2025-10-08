@@ -3,8 +3,8 @@ import { FaStar } from "react-icons/fa";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 import { NavLink } from 'react-router';
 
-const SomeApp2 = ({ app }) => {
-    const { id, image, ratingAvg, downloads, title } = app
+const AllApps = ({ app }) => {
+    const { id,image, ratingAvg, downloads, title } = app
     return (
         <NavLink to={`/apps/${id}`}><div className='w-[348px] h-[425px] border-1 shadow rounded-2xl border-gray-500'>
             <div className='flex justify-center m-4'>
@@ -23,4 +23,4 @@ const SomeApp2 = ({ app }) => {
     );
 };
 
-export default SomeApp2;
+export default AllApps;

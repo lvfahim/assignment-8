@@ -3,13 +3,17 @@ import {Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 import NavImg from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import { MdApps } from "react-icons/md";
+import { PiComputerTowerFill } from "react-icons/pi";
         const LinkList =<>
-        <NavLink to='/'><li className='font-semibold mx-4'>Home</li></NavLink>
-        <NavLink to='/apps'><li className='font-semibold mx-4'>Apps</li></NavLink>
-        <NavLink to='/installation'><li className='font-semibold mx-4'>Installation</li></NavLink>
+        <NavLink to='/'><div className='flex items-center'><FaHome /><li className='font-semibold mx-4'>Home</li></div></NavLink>
+        <NavLink to='/apps'><div className='flex items-center'><MdApps /><li className='font-semibold mx-4'>Apps</li></div></NavLink>
+        <NavLink to='/installation'><div className='flex items-center'><PiComputerTowerFill /><li className='font-semibold mx-4'>Installation</li></div></NavLink>
         </>
 
 const Navdar = () => {
+
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
