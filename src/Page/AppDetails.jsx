@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import DoImg from '../assets/icon-downloads.png';
 import StarImg from '../assets/icon-ratings.png';
@@ -7,17 +7,27 @@ import Err from '../assets/App-Error.png'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from 'recharts';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import { addToLS, getStoryApps } from '../StoreData/Store';
+import { AppsContext } from '../Root/Root';
+
 
 const MySwal = withReactContent(Swal)
-
-
-
 const AppDetails = () => {
+
   const [instal, setInstal] = useState(false)
+  const [apps, setApps] = useContext(AppsContext)
   const { Id } = useParams();
   const Ids = parseInt(Id);
   const data = useLoaderData();
+   
   const app = data.find(apps => apps.id === Ids);
+  const { id, image, ratingAvg, downloads, title, companyName, reviews, size, ratings, description } = app;
+  useEffect(() => {
+    const instaillApp = getStoryApps();
+    if (instaillApp.includes(id)) {
+      setInstal(true)
+    }
+  }, [id]);
   if (app === undefined) {
     return <div>
       <div className='flex justify-center mt-[100px]'>
@@ -27,14 +37,22 @@ const AppDetails = () => {
       <p className='text-center text-xl mt-1.5'>The App you are requesting is not found on our system.  please try another apps</p>
     </div>;
   }
-  const { image, ratingAvg, downloads, title, companyName, reviews, size, ratings, description } = app;
-  const heandleButton = () => {
+  
+
+ 
+
+  
+
+
+  const heandleButton = (id) => {
     setInstal(true)
     MySwal.fire({
       title: "Installed",
       text: "You clicked the button!",
       icon: "success"
     });
+    addToLS(id);
+    setApps([...apps, app]); 
 
   }
 
@@ -68,10 +86,10 @@ const AppDetails = () => {
               <h1 className='text-2xl font-bold'>{reviews}</h1>
             </div>
           </div>
+            <button onClick={() => { heandleButton(id) }} disabled={instal} className='btn p-4 bg-[#00D390] mt-[20px]'>
+              {instal ? ' Installed' : `Install Now ${size} MB`}
+            </button>
 
-          <button onClick={() => { heandleButton() }} disabled={instal} className='btn p-4 bg-[#00D390] mt-[20px]'>
-            {instal ? ' Installed' : `Install Now ${size} MB`}
-          </button>
         </div>
       </div>
       <div className='md:w-[1440px] w-full mx-auto border-gray-500 border-1 border-dashed mt-[50px]'>
@@ -103,3 +121,4 @@ const AppDetails = () => {
 };
 
 export default AppDetails;
+
