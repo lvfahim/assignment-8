@@ -39,10 +39,6 @@ const AppDetails = () => {
   }
   
 
- 
-
-  
-
 
   const heandleButton = (id) => {
     setInstal(true)
@@ -52,7 +48,7 @@ const AppDetails = () => {
       icon: "success"
     });
     addToLS(id);
-    setApps([...apps, app]); 
+    setApps([...apps, app]);
 
   }
 
